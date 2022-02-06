@@ -113,7 +113,7 @@
     bottom:30px;
     border:2px solid #555;
     margin-top:50px;
-    width:200px;
+    width:180px;
     border-radius: 18px;
     text-align: center;
     padding:8px;
@@ -126,12 +126,15 @@
 .SeberrydivBtn1:hover .SeberrydivBtnLink{
     color:#fff;
 }
+.SeberrydivBtn2:hover .SeberrydivBtnLink{
+    color:#fff;
+}
 .SeberrydivBtn2{
     bottom:30px;
     border:2px solid #555;
     margin-top:50px;
     
-    width:200px;
+    width:180px;
     border-radius: 18px;
     text-align: center;
     padding:8px;
@@ -148,12 +151,13 @@
     color:#fff;
 }
 .seberryAsk{
-    box-shadow: 5px 5px 5px #474747;
+    box-shadow: 5px 5px 5px #47474771;
     width:100%;
     height: 350px;
     position:absolute;
     top:-30px;
     background:#fff;
+    left:0px;
 }
 .seberryaskContent{
     text-align: left;
@@ -171,4 +175,55 @@
     margin-left:50px;
     text-transform: capitalize;
 
+}
+.whySeberry{
+    padding-bottom: 80px;
+}
+/*====================DEVELOPMMENT SECTION ============*/
+.developTitle{
+    font-size:35px;
+    font-weight: bold;
+    margin-top:120px;
+    margin-bottom: 40px;
+    margin-left:50px;
+    color:#fff;
+
+}
+.develomPara{
+    font-size:18px;
+    text-align:justify;
+    font-weight: 400;
+    margin-bottom: 120px;
+    margin-left:50px;
+    color:#fff;
+}
+.developImg{
+    background-image: url('../image/city.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.developRightTitle{
+    font-size:35px;
+    font-weight: bold;
+    margin-top:120px;
+    margin-bottom: 40px;
+    margin-left:50px;
+    color:#b94790;
+
+}
+
+.develomRightPara{
+    font-size:18px;
+    text-align:justify;
+    font-weight: 400;
+    margin-bottom: 120px;
+    margin-left:50px;
+    color:#555;
+}
+.developLink:hover{
+    text-decoration: none;
+}
+.developLink:hover .developRightTitle{
+    text-decoration: none;
+    color:red;
 }
