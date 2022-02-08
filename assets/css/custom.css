@@ -47,12 +47,13 @@
 .topBanner{
     height: 600px; 
     background-attachment: fixed;
-    background-image: url("../image/banner.jpg");
+    background-image: url("../image/videoBack.jpg");
 }
-.topBanner .video{
-   width: 100%;
-   position:relative;
+.videoTag{
+    width: 100%;
+    margin:0 auto;
 }
+
 .VideoInnnerDiv{
     position: absolute;
     top:200px;
@@ -180,6 +181,9 @@
     padding-bottom: 80px;
 }
 /*====================DEVELOPMMENT SECTION ============*/
+.develop{
+    
+}
 .developTitle{
     font-size:35px;
     font-weight: bold;
@@ -227,3 +231,112 @@
     text-decoration: none;
     color:red;
 }
+/*========================*/
+.roketBackground{
+    background-image: url('../image/roket.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*==================Recource section ================*/
+.recourseTitle{
+    font-size:35px;
+    font-weight: bold;
+    margin-top:120px;
+    margin-bottom: 40px;
+    margin-left:50px;
+    color:inherit;
+}
+.recourseRightTitle{
+    font-size:35px;
+    font-weight: bold;
+    margin-top:120px;
+    margin-bottom: 40px;
+    margin-left:50px;
+    color:rgb(14, 98, 146);
+}
+.bussnessTitle{
+    font-size:35px;
+    font-weight: bold;
+    margin-top:120px;
+    margin-bottom: 40px;
+    margin-left:50px;
+    color:rgb(6, 57, 87); 
+}
+/*================================Servery Serve============*/
+.syberryServeUpperPara{
+    padding:50px;
+}
+.syberryServe{
+   font-family: 'arial';
+}
+.h3Title{
+    font-size:25px;
+    font-weight: bold;
+    color:#444;
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+.syberryPara{
+    color:#333;
+    padding:10px;
+    text-align: justify;
+    font-size:18px;
+}
+
+.busninessItemLink1:hover{
+    text-decoration: none;
+}
+.businessItemDivOne:hover{
+    transition: 1s;
+    background: rgb(0, 0,0,0.1);
+    box-shadow: 3px 3px 3px #555;
+}
+.busninessItemLink1 > i{
+    font-size:50px;
+    text-align: left !important;
+}
+.upperDiv{
+    width:100%;
+    z-index: 22;
+    min-height: 200px;
+    box-shadow: 20px 2px 10px 20px rgb(51, 51, 51,0.1);
+    box-sizing: border-box;
+    position:absolute;
+    left:0px;
+    top:-20px;
+    
+}
+.controldiv{
+    position: relative;
+}
+.WhoText{
+    color:#333;
+    font-weight: bold;
+    margin-top:70px;
+
+}
+.sectionDiv{
+    padding:80px 0px;
+}
+.industrText{
+    margin:0 auto;
+    width: 1024px;
+    font-size: 28px;
+    color:#333;
+    font-weight: 500;
+    padding-bottom: 80px;
+}
+.todyLink{
+    color:#333;
+    text-decoration: underline;
+}
+.slidImg{
+    height: 50px;
+    width: 100px;
+    
+}
+.silerdiv{
+    width: 100px;
+    height: 50px;
+}
+
