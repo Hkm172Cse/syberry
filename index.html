@@ -305,20 +305,113 @@
     </section>
     <!--Caruosel div Section-->
 
-    <section class="container-fluid sectionDiv">
-      
-        <div class="owl-carousel owl-loaded">
-          <div class="silerdiv"> <div class="image-postion"><img class="slidImg" src="assets/logo/campus.png" alt=""></div>  </div>
-          <div class="silerdiv"> <img class="slidImg" src="assets/logo/md.png" alt=""> </div>
-          <div class="silerdiv"> <img class="slidImg" src="assets/logo/paypal.png" alt=""> </div>
-          <div class="silerdiv"> <img class="slidImg" src="assets/logo/shell.png" alt=""> </div>
-          <div class="silerdiv"> <img class="slidImg" src="assets/logo/craftforcecolor-gray.a5119d0a.png" alt=""> </div>
-          <div class="silerdiv"> <img class="slidImg" src="assets/logo/adeptdrivercolor-gray.558e6743.png" alt=""> </div>
-          <div class="silerdiv"> <img class="slidImg" src="assets/logo/hopscotch-gray.877c4be6.png" alt=""> </div>
+    <section class="container-fluid sectionDiv justify-content-center">
+     
+        <div class="owl-carousel owl-loaded row">
+
+          <div class="carousl-item">
+              <img src="assets/image/slid4.webp" alt="">
+          </div>
+          <div class="carousl-item">
+            <img src="assets/image/slid3.png" alt="">
+          </div>
+          <div class="carousl-item">
+            <img src="assets/image/slid5.jpg" alt="">
+          </div>
+          <div class="carousl-item">
+            <img src="assets/image/slid6.jpg" alt="">
+          </div>
+          
         </div>
       
+      </div>
+      
+       
       
 
+    </section>
+
+    <!--platform-->
+    <section class="platform_section container-fluid">
+      <div class="row">
+        <div class="col-lg-6 bg-info">
+          <a href="#">
+            <div class="platformPostionDiv">
+              <h2 class="platformh2">digital right management platform</h2>
+               <p class="plateformPara">This integrated DRM Platform was designed to seamlessly handle thousands of music venues simultaneously. The software can also recognize songs and integrate data into IP owners' systems.</p>
+
+               <h3 class="tech"><span class="font-weight-bold">Technoligies</span> : NGINX, PHP, Symfony, AWS, Python </h3>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-6 bg-primary">
+          <a href="#">
+            <div class="platformPostionDiv">
+              <h2 class="platformh2">Mission Controll Platform</h2>
+               <p class="plateformPara">This web-based solution was designed for professional photographers. It automates daily tasks like managing portfolios, sharing photos, and social media marketing (SMM). This solution helps anyone who manages high-end graphics by optimizing SMM flows and saving valuable time.</p>
+
+               <h3 class="tech"><span class="font-weight-bold">Technoligies</span> : NGINX, PHP, Symfony, AWS, Python </h3>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 bg-warning">
+          <div class="row">
+            <div class="col-lg-6">
+              <a href="#">
+                <div class="platformPostionDiv">
+                  <h2>Steel istiaiton solutions wizerd</h2>
+                  <h3 class="tech"><span class="font-weight-bold">Technoligies</span> : NGINX, PHP, Symfony, AWS, Python </h3>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="#">
+                <div class="platformPostionDiv">
+                  <h2>Steel istiaiton solutions wizerd</h2>
+                  <h3 class="tech"><span class="font-weight-bold">Technoligies</span> : NGINX, PHP, Symfony, AWS, Python </h3>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6"></div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6">
+              <a href="#">
+                <div class="platformPostionDiv">
+                  <h2>Steel istiaiton solutions wizerd</h2>
+                  <h3 class="tech"><span class="font-weight-bold">Technoligies</span> : NGINX, PHP, Symfony, AWS, Python </h3>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="#">
+                <div class="platformPostionDiv">
+                  <h2>Steel istiaiton solutions wizerd</h2>
+                  <h3 class="tech"><span class="font-weight-bold">Technoligies</span> : NGINX, PHP, Symfony, AWS, Python </h3>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6"></div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 bg-info">
+          <a href="#">
+            <div class="platformPostionDiv">
+              <h2 class="platformh2">Mission Controll Platform</h2>
+               <p class="plateformPara">This web-based solution was designed for professional photographers. It automates daily tasks like managing portfolios, sharing photos, and social media marketing (SMM). This solution helps anyone who manages high-end graphics by optimizing SMM flows and saving valuable time.</p>
+
+               <h3 class="tech"><span class="font-weight-bold">Technoligies</span> : NGINX, PHP, Symfony, AWS, Python </h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      
     </section>
   
 
@@ -331,12 +424,17 @@
     <script>
       $(document).ready(function(){
         $(".owl-carousel").owlCarousel({
-          items:5,
+          items:4,
           loop:true,
           autoplay:true,
           lazyLoad:true,
           autoWidth:false,
+          center:true,
+          margin:10,
+         
         });
+
+        
       });
     </script>
 
