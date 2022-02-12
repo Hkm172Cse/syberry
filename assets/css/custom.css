@@ -423,3 +423,93 @@
   color: #444;
   font-family: "arial";
 }
+.we_promise {
+  margin-left: 50px;
+  font-weight: bold;
+  font-family: "arial";
+  margin-bottom: 50px;
+}
+/*==============Second Slider============*/
+.container2nd {
+  width: 100%;
+  margin: 10px auto;
+  overflow: hidden;
+}
+.corousel {
+  height: 500px;
+  position: relative;
+  background-image: url("../image/night2.jpg");
+  background-position: center center;
+  background-repeat: repeat;
+}
+.slider {
+  height: 100%;
+  display: flex;
+  width: 400%;
+  transition: all 1s;
+}
+.slider section {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.controls .arrow {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+.left {
+  left: 10px;
+}
+.right {
+  right: 10px;
+}
+.right i {
+  font-size: 40px;
+  color:#fff;
+}
+.left i{
+  font-size: 40px;
+  color:#fff;
+}
+.leftDiv {
+  height: 80%;
+  background: rgba(223, 214, 214, 0.3);
+}
+.rightDiv {
+  height: 60%;
+}
+.sliderText {
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  text-align: justify;
+  font-size: 20px;
+  color: #fff;
+}
+.rechard {
+  margin-left: 50px;
+  margin-top: 20px;
+  color: #fff;
+}
+.ceo {
+  margin-left: 50px;
+  color: #fff;
+}
+.sliderRightHead {
+  color: #fff;
+  font-family: "arial";
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+.sliderRightPara {
+  font-size: 16px;
+  margin-left: 80px;
+  margin-right: 40px;
+  font-family: "arial";
+  color: #fff;
+}
