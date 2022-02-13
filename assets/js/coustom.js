@@ -21,7 +21,5 @@ rightArrow.addEventListener('click', function(){
    else{
     sectionIndex = -1;
    }
-
-   
    
 });

@@ -1,3 +1,8 @@
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/*
 .mydropdown {
   width: 1366px;
   position: absolute;
@@ -37,6 +42,7 @@
   display: block;
   position: absolute;
 }
+*/
 /*================ Top Banner =========== */
 
 .topBanner {
@@ -467,11 +473,11 @@
 }
 .right i {
   font-size: 40px;
-  color:#fff;
+  color: #fff;
 }
-.left i{
+.left i {
   font-size: 40px;
-  color:#fff;
+  color: #fff;
 }
 .leftDiv {
   height: 80%;
@@ -512,4 +518,124 @@
   margin-right: 40px;
   font-family: "arial";
   color: #fff;
+}
+.customerSay {
+  text-align: center;
+  color: #fff;
+}
+.controls ul {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.controls ul li {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  list-style-type: none;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+  background: red;
+  cursor: pointer;
+}
+.myInput {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.contact-header {
+  text-align: justify;
+  font-family: "arial";
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-weight: bold;
+}
+.sendBtn {
+  border: 1px solid #555;
+  padding: 10px 50px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.sendBtn:hover {
+  background: #555;
+  color: #fff;
+  transition: 1s;
+}
+.contact_div {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  box-shadow: 2px 3px 4px 5px rgba(223, 214, 214, 0.3);
+}
+
+/*============Footer Section============*/
+footer {
+  background: #222;
+  color: #feffff;
+  padding: 80px;
+}
+
+.footerTitle {
+  margin-left: 50px;
+  font-size: 25px;
+  font-family: "arial";
+}
+.ooter-service {
+  margin: 50px;
+  font-size: 22px;
+  font-family: "arial";
+  color: gray;
+}
+footer hr {
+  height: 2px;
+  width: 100%;
+  background: gray;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer ul li {
+  display: block;
+  margin-top: 15px;
+}
+footer .footer_link {
+  text-decoration: none;
+  font-size: 11px;
+  font-family: "arial";
+  color: #feffff;
+}
+footer .footer_link:hover {
+  text-decoration: underline;
+}
+.footer_p i {
+  margin-right: 12px;
+  font-size: 20px;
+  background: #ff99;
+  color: #000;
+}
+.footer_p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.footer_small_text {
+  font-size: 14px;
+  font-family: "arial";
+  display: block;
+  margin-left: 40px;
+}
+.footer-position {
+  margin-left: 50px;
 }
